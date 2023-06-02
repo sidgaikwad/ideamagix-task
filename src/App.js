@@ -6,10 +6,12 @@ import Banner from './components/banner';
 import Carousal from './components/carousal';
 import FlexboxComponent from './components/flex';
 import Footer from './components/footer';
+import PreLoader from './components/preloader';
 
 function App() {
   return (
     <>
+      <PreLoader/>
       <Header/>
       <Navbar/>
       <Banner/>
