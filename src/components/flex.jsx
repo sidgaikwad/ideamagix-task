@@ -2,8 +2,8 @@ import React from "react";
 
 const FlexboxComponent = () => {
   return (
-    <div className="flex">
-      <div className="flex-grow w-1/2  bg-lightblue">
+    <div className="sm:block lg:flex">
+      <div className="flex-grow lg:w-1/2 sm:w-full  bg-lightblue">
         <div className="border-b-2 border-dotted px-4 pb-6 border-sky-500 my-4">
           <h1 className="font-bold text-2xl ">Eligibility For Treatment</h1>
           <p>
@@ -474,7 +474,7 @@ const FlexboxComponent = () => {
           </div>
         </div>
       </div>
-      <div className="flex-shrink-0 bg-lightgreen w-1/2 ml-4">
+      <div className="flex-shrink-0 bg-lightgreen lg:w-1/2 sm:w-full ml-4">
         <form className="w-full max-w-sm mx-auto bg-white p-8 rounded-md shadow-md">
           <div className="mb-4">
             <label
