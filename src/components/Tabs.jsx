@@ -6,7 +6,7 @@ const Tabs =() => {
   return (
     <>
 <div class="bg-white mx-auto">
-    <nav class="flex flex-col sm:flex-row mx-8">
+    <nav class="flex flex-col md:flex  md:flex-row  mx-8">
         <button class="text-gray-600 py-4 px-6 block hover:text-blue-500 focus:outline-none border-b-2 font-medium border-blue-500">
             Overview
         </button>
@@ -24,12 +24,6 @@ const Tabs =() => {
         </button>
         <button class="text-gray-600 py-4 px-6 block hover:text-blue-500 focus:outline-none">
             Recovery Tips
-        </button>
-        <button class="text-gray-600 py-4 px-6 block hover:text-blue-500 focus:outline-none">
-            FAQs
-        </button>
-        <button class="text-gray-600 py-4 px-6 block hover:text-blue-500 focus:outline-none">
-            Patient Stories
         </button>
     </nav>
 </div>
