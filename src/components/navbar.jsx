@@ -5,11 +5,11 @@ import logo from '../assets/main.png'
 import profile from '../assets/profile.png'
 
 const navigation = [
-  { name: 'Home', href: '#', current: true },
-  { name: 'Team', href: '#', current: false },
-  { name: 'Treatment +', href: '#', current: false },
-  { name: 'Destinations +', href: '#', current: false },
-  { name: 'Hospitals', href: '#', current: false },
+  { name: 'Home', href: '/', current: true },
+  { name: 'Team', href: '/Teams', current: false },
+  { name: 'Treatment +', href: '/Treatment', current: false },
+  { name: 'Destinations +', href: '/Destinations', current: false },
+  { name: 'Hospitals', href: '/Hospitals', current: false },
 ]
 
 function classNames(...classes) {
@@ -62,7 +62,7 @@ export default function Example() {
                         {item.name}
                       </a>
                     ))}
-                  <input type="search" name="q" className="py-1 text-sm text-white bg-blue-800 rounded-md pl-10 focus:outline-none focus:bg-white focus:text-blue-900 placeholder:text-gray-300" placeholder="Search..." autocomplete="off"/>
+                  <input type="search" name="q" className=" py-1 text-sm text-white bg-blue-800 rounded-md pl-10 focus:outline-none focus:bg-white focus:text-blue-900 placeholder:text-gray-300" placeholder="Search..." autocomplete="off"/>
                   </div>
                 </div>
               </div>
